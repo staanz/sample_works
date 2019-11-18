@@ -9,8 +9,8 @@ This was a manual calculation performed every month to understand how users who 
 `2_ThresholdAnalysis.pdf`
 We have occasional cases where some users may discover loopholes / errors in codes or constructs that lead to rather large amounts of losses in very short durations in time. To counter this, I set up a system that monitors the cumulative GMV generated / Discounts used / Credits rewarded etc. across an hour and compares this against an allowable threshold, alerting key persons in cases of overages. This file is the study conducted based on which an 80% figure was selected for the thresholds for each hour.
 #### Process:
-Get all unit TXNs across a 2 month period
-Divide all TXNs up till 15 as FirstHalf and latter as SecondHalf (As most campaigns run in the first half of the month, there will be differences in TXN behaviour)
-Aggregate metrics for each hour of each half of the month separately (This gives us 2x24 aggregations per month per metric)
-Explore the data points of each hour to identify what value 80% of values fall under
-Save thresholds as a csv with HalfOfMonth, Hour, Metric, Threshold as the columns
+1. Get all unit TXNs across a 2 month period
+2. Divide all TXNs up till 15 as FirstHalf and latter as SecondHalf (As most campaigns run in the first half of the month, there will be differences in TXN behaviour)
+3. Aggregate metrics for each hour of each half of the month separately (This gives us 2x24 aggregations per month per metric)
+4. Explore the data points of each hour to identify what value 80% of values fall under
+5. Save thresholds as a csv with HalfOfMonth, Hour, Metric, Threshold as the columns
