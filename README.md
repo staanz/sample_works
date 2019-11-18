@@ -14,3 +14,7 @@ We have occasional cases where some users may discover loopholes / errors in cod
 3. Aggregate metrics for each hour of each half of the month separately (This gives us 2x24 aggregations per month per metric)
 4. Explore the data points of each hour to identify what value 80% of values fall under
 5. Save thresholds as a csv with HalfOfMonth, Hour, Metric, Threshold as the columns
+
+## 3. The Daily Jumble Game (Personal Project)
+[Github Link](https://github.com/staanz/string_exercises/blob/master/puzzle_builder.py)
+This came about as I enjoy word puzzles, and so, while automating a task to check no english words in chat messages, I came across the idea of building a web version of the popular newspaper game, Jumble. The specific component of the game, as linked above, was a piece of logic that was fun and interesting to develop. The actual web version of the game can be found [here](http://www.string-exercises.herokuapp.com)
